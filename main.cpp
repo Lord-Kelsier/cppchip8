@@ -23,6 +23,7 @@ int main(int argc, char** argv) {
         }
         // store key press state (Press and Release)
         cpu.setKeys();
+        //wait(1/60 second)
         break;
     }
     return 0;
